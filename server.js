@@ -98,20 +98,21 @@ function receivedMessage(event) {
 
     // If we receive a text message, check to see if it matches a keyword
     // and send back the example. Otherwise, just echo the text we received.
-    switch (messageText) {
-      case 'generic':
-        sendGenericMessage(senderID, "อยากได้อะไร");
-        break;
 
-      default:
-        sendTextMessage(senderID, messageText);
-    }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
   }
 }
 function sendGenericMessage(recipientId, messageText) {
   // To be expanded in later sections
+  switch (messageText) {
+    case 'generic':
+      sendGenericMessage(senderID,);
+      break;
+
+    default:
+    
+  }
 }
 
 function sendTextMessage(recipientId, messageText) {
