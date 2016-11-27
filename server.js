@@ -72,6 +72,9 @@ function receivedMessage(event) {
       case 'generic':
         sendGenericMessage(senderID,อยากได้อะไร);
         break;
+      case 'test':
+        sendGenericMessage(senderID,อยากได้อะไร);
+        break;
 
       default:
         sendTextMessage(senderID, messageText);
