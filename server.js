@@ -29,7 +29,7 @@ app.post('/webhook', function (req, res) {
 
 
       // Iterate over each messaging event 1
-     pageEntry.messaging.forEach(function(messagingEvent) {
+     entry.messaging.forEach(function(messagingEvent) {
        if (messagingEvent.optin) {
          receivedAuthentication(messagingEvent);
        } else if (messagingEvent.message) {
@@ -52,7 +52,7 @@ app.post('/webhook', function (req, res) {
         if (event.message) {
           receivedMessage(event);
         }
-      
+
         else {
           console.log("Webhook received unknown event: ", event);
         }
