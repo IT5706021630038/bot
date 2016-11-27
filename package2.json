@@ -2,5 +2,5 @@
     "name": "devahoy-nodejs",
     "version": "0.0.1",
     "description": "Devahoy Node.js with Express 4 Tutorial",
-    "main": "index.js"
+    "main": "server.js"
 }
