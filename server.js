@@ -112,9 +112,7 @@ function receivedMessage(event) {
 }
 function sendGenericMessage(recipientId, messageText) {
   // To be expanded in later sections
-  if (messageText === 'generic') {
-    sendTextMessage(senderID, "ควยxxx");
-  }
+
 }
 
 function sendTextMessage(recipientId, messageText) {
