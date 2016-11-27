@@ -107,11 +107,11 @@ function sendGenericMessage(recipientId, messageText) {
   // To be expanded in later sections
   switch (messageText) {
     case 'generic':
-      sendGenericMessage(senderID,);
+      sendGenericMessage(senderID);
       break;
 
     default:
-    
+
   }
 }
 
