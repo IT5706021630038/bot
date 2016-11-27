@@ -100,10 +100,7 @@ function receivedMessage(event) {
     // and send back the example. Otherwise, just echo the text we received.
     switch (messageText) {
       case 'generic':
-        sendGenericMessage(senderID,อยากได้อะไร);
-        break;
-      case 'test':
-        sendGenericMessage(senderID,อยากได้อะไร);
+        sendGenericMessage(senderID, "อยากได้อะไร");
         break;
 
       default:
