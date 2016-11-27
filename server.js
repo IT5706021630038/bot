@@ -107,7 +107,7 @@ function sendGenericMessage(recipientId, messageText) {
   // To be expanded in later sections
   switch (messageText) {
     case 'generic':
-      sendGenericMessage(senderID);
+      sendTextMessage(senderID, "genericป้างง่า");
       break;
 
     default:
