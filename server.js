@@ -100,11 +100,11 @@ function receivedMessage(event) {
     // and send back the example. Otherwise, just echo the text we received.
     switch (messageText) {
       case 'generic':
-        sendGenericMessage(senderID, "อยากได้อะไร");
+        sendGenericMessage(senderID,);
         break;
 
       default:
-      
+
     }
   } else if (messageAttachments) {
     sendTextMessage(senderID, "Message with attachment received");
@@ -112,6 +112,9 @@ function receivedMessage(event) {
 }
 function sendGenericMessage(recipientId, messageText) {
   // To be expanded in later sections
+  if (messageText === 'generic') {
+    sendTextMessage(senderID, "ควยsss");
+  }
 }
 
 function sendTextMessage(recipientId, messageText) {
