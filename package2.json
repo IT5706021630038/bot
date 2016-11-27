@@ -1,16 +1,6 @@
 {
-  "name" : "nodejs-google-play-information",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "engineers":{
-    "node": "^4.2.0"
-  },
-  "dependencies":{
-    "cheerio": "^0.20.0",
-    "hapi": "^13.0.0",
-    "request": "^2.69.0"
-  }
+    "name": "devahoy-nodejs",
+    "version": "0.0.1",
+    "description": "Devahoy Node.js with Express 4 Tutorial",
+    "main": "index.js"
 }
