@@ -98,7 +98,7 @@ function receivedMessage(event) {
   if (messageText) {
     if (messageText === 'ตารางคะแนน') {
 
-      sendTextMessage(senderID, window.alert(5 + 6););
+      sendTextMessage(senderID, "ควยs");
     }
 
     // If we receive a text message, check to see if it matches a keyword
