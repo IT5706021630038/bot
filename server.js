@@ -58,6 +58,10 @@ app.post('/webhook', function (req, res) {
   }
 });
 
+
+
+
+
 function receivedPostback(event) {
   var senderID = event.sender.id;
   var recipientID = event.recipient.id;
@@ -94,7 +98,7 @@ function receivedMessage(event) {
   if (messageText) {
     if (messageText === 'ตารางคะแนน') {
 
-      sendTextMessage(senderID, "ควยs");
+      sendTextMessage(senderID, window.alert(5 + 6););
     }
 
     // If we receive a text message, check to see if it matches a keyword
