@@ -97,7 +97,7 @@ function receivedMessage(event) {
 
   if (messageText) {
     if (messageText === 'ตารางคะแนน') {
-       window.alert(5 + 6);
+
       sendTextMessage(senderID, "ควยs");
     }
 
